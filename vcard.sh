@@ -541,7 +541,7 @@ print_cards() {
 }
 
 #===============================================================================
-export PS4='\[\033[0;33m\]+ ${BASH_SOURCE##*/}:${LINENO}:(${FUNCNAME[0]:-"?"}): \[\033[0;37m\]'
+export PS4='\[\e[0;33m\]+ ${BASH_SOURCE##*/}:${LINENO}:(${FUNCNAME[0]:-"?"}):\[\e[0m\] '
 script_name="${0##*/}"
 
 trap "on_exit 'Failed.'" EXIT
