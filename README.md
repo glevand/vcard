@@ -1,4 +1,4 @@
-## vCard
+# vCard
 
 A vCard file cleanup utility.
 
@@ -24,6 +24,16 @@ Option steps:
 Send bug reports to Geoff Levand <geoff@infradead.org>.
 ```
 
-## Licence & Usage
+# iCalender
+
+An iCalender file formating utility.
+
+For technical details see the [IETF RFC 5545, Internet Calendaring and Scheduling Core Object Specification](https://tools.ietf.org/html/rfc5545).
+
+## Usage
+
+TBD
+
+# Licence & Usage
 
 All files in the [vcard project](https://github.com/glevand/vcard), unless otherwise noted, are covered by an [MIT Plus License](https://github.com/glevand/vcard/blob/master/mit-plus-license.txt).  The text of the license describes what usage is allowed.
